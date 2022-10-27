@@ -74,7 +74,7 @@ class Orders
 
                 $order_name = $order->getNumber();
                 $order_sum = $order->getSum();
-                $order_name = '56112';
+
                 $sql_test = "SELECT *  FROM auvf_yandexclient WHERE `name` = '$order_name'";
                 $row = $conn->query($sql_test)->num_rows;
                 $sql = '';
